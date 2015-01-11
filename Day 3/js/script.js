@@ -166,3 +166,4 @@ var crazyNumbers = 2.32423598509325;
 
 crazyNumbers = crazyNumbers.toFixed(2);
 console.log(crazyNumbers);
+
