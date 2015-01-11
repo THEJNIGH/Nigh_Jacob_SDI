@@ -139,3 +139,30 @@ var average;
 
 average = (quiz1 + quiz2 + quiz3) / 3;
 console.log("Your average is " + average);
+
+// Concatenation combines strings with variables and sorts.
+
+var firstName = "Kermit";
+var lastName = "The Frog";
+var fullName = firstName + " " + lastName;
+
+console.log(fullName);
+console.log(fullName + " " + "is not my favorite muppet.");
+
+var d = "6";
+var e = "7";
+var combine = d + e;
+
+console.log(combine);
+
+// Constant values are always upper case.
+
+var PIE = 3.14;
+
+// Round to a decimal place.
+// toFixed(#); # = how many numbers you want to go.
+
+var crazyNumbers = 2.32423598509325;
+
+crazyNumbers = crazyNumbers.toFixed(2);
+console.log(crazyNumbers);
