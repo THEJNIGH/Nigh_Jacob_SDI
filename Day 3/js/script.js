@@ -120,3 +120,22 @@ console.log(phrase);
 // multi - line \n
 
 console.log(phrase + "\n You never know!")
+
+// Boolean
+
+var yes = true;
+var no = false;
+var wrong = "false";
+
+// PEMDAS
+// Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+
+// Find quiz averages.
+
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+var average;
+
+average = (quiz1 + quiz2 + quiz3) / 3;
+console.log("Your average is " + average);
