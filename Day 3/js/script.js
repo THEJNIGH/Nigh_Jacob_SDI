@@ -103,3 +103,20 @@ console.log(intCounter);
 intCounter *= 4; // Counter = counter * 4.
 console.log(intCounter);
 
+/* String - is any text variable
+   Is used at the beginning and the end of the string
+   Used to distinguish between variable name and random text
+ Single quotes ' double quotes " are both used, BUT MUST MATCH */
+
+var kermit = "Light Green";
+var frogName = "Kermit";
+console.log(frogName + " is " + kermit);
+
+// Double quote or Single quote.
+// Use single quote when you have a quote with in a quote.
+var phrase = 'I don\'t know!';
+console.log(phrase);
+
+// multi - line \n
+
+console.log(phrase + "\n You never know!")
