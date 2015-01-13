@@ -26,7 +26,7 @@ var sparky; //Declared variable
 totalSlices = pizzas * slices; //totalslices = 4 * 8;
 sparky = totalSlices%people;
 
-console.log("Sparky got "+ sparky + " slice(s) of pizza.") //Printed the line
+console.log("Sparky got "+ sparky + " slice(s) of pizza."); //Printed the line
 
 // Average Shopping Bill
 
