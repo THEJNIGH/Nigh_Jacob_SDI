@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7109bf6e-3961-45e9-a1ba-96c01315228d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3_Instruction_Expressions/Instruction_Expressions/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Day3_Instruction_Expressions/Instruction_Expressions/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nigh_Jacob_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Nigh_Jacob_Expressions_Assignment/js/script.js" />
     </list>
     <ignored path="Nigh_Jacob_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nigh_Jacob_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44510385" vertical-offset="0" max-vertical-offset="674">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.42284867" vertical-offset="0" max-vertical-offset="674">
+              <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -465,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nigh_Jacob_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44510385" vertical-offset="0" max-vertical-offset="674">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.42284867" vertical-offset="0" max-vertical-offset="674">
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
