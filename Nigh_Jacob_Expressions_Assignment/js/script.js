@@ -29,4 +29,6 @@ total = a /2; // Last part declared and defined total and make it equal to a div
 
 console.log("The area of your trapezoid is: " + total); // Printed the statement.
 
+// I am gangster and can code wassup g?
+
 
