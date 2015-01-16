@@ -32,3 +32,18 @@ else
  console.log("You cannont ride the roller coaster.");
 };
 console.log("What if you skip all of this.");
+
+// If the kid is over 48 inches tall then he can ride.
+
+var kidHeight = 20;
+var minHeight =48;
+
+if(kidHeight > minHeight)
+{
+ console.log("You are tall enough to ride the roller coaster.");
+}
+else
+{
+ // This code will run if the the test is false.
+ console.log("Im sorry, you are not tall enough to ride this ride.");
+}
