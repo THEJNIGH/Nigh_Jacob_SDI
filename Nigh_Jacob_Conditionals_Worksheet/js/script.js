@@ -43,25 +43,25 @@ else if(percent < 40 && distance < finalDestination) //Checking if the first sta
 var studentGrade = prompt("What is your grade in a percentage?"); //Ask the user for the percent of grade they had gotten
 studentGrade = parseInt(studentGrade); //Use parseInt to change the string into a number
 
-var gradingScale = ["A!", "B!", "C!", "D!", "F!"];
+var gradingScale = ["A!", "B!", "C!", "D!", "F!"]; //Created an array to hold the letter grades
 
-if(studentGrade >= 90 || studentGrade <=100)
+if(studentGrade >= 90 || studentGrade <=100) //If statement to check and see if the number given is in between those amounts
 {
  console.log("You have a " + studentGrade + ", which means you have earned a(n) " + gradingScale[0]); //Prints the statement
 }
-else if(studentGrade >=80 || studentGrade <=89)
+else if(studentGrade >=80 || studentGrade <=89) //If statement to check and see if the number given is in between those amounts
 {
  console.log("You have a " + studentGrade + ", which means you have earned a(n) " + gradingScale[1]); //Prints the statement
 }
-else if(studentGrade >=73 || studentGrade <=79)
+else if(studentGrade >=73 || studentGrade <=79) //If statement to check and see if the number given is in between those amounts
 {
  console.log("You have a " + studentGrade + ", which means you have earned a(n) " + gradingScale[2]); //Prints the statement
 }
-else if(studentGrade >= 70 || studentGrade <=73)
+else if(studentGrade >= 70 || studentGrade <=73) //If statement to check and see if the number given is in between those amounts
 {
  console.log("You have a " + studentGrade + ", which means you have earned a(n) " + gradingScale[3]); //Prints the statement
 }
-else if(studentGrade <= 69)
+else if(studentGrade <= 69) //If everything else is not true it prints this
 {
  console.log("You have a " + studentGrade + ", which means you have earned a(n) " + gradingScale[4]); //Prints the statement
 }
@@ -72,22 +72,22 @@ else if(studentGrade <= 69)
  discounted price. Determine which of the two prices the customer is eligible for.
  */
 
-var age = prompt("How old are you?");
+var age = prompt("How old are you?"); //Ask the user how old they are
 age = parseInt(age); //Use parseInt to change the string into a number
-var tod = prompt("What time is the movie?");
-tod = parseInt(tod);
+var tod = prompt("What time is the movie?"); //Ask what movie time their movie is going to be played
+tod = parseInt(tod); //Use parseInt to change the string into a number
 
-var movie = ["$12.00", "$7.00"];
+var movie = ["$12.00", "$7.00"]; //The array to hold the string amounts
 
-if(age <= 10 || age >=55)
+if(age <= 10 || age >=55) //If statement to check and see if the age is below 10 and above 55 to get the discount
 {
  console.log("The ticket price is " + movie[1] + "!"); //Prints the statement
 }
-else if(tod >=3 || tod <=5)
+else if(tod >=3 || tod <=5) //If statement to check and see if the movie is in the time slot of 3 and 5 pm
 {
  console.log("The ticket price is " + movie[1] + "!"); //Prints the statement
 }
-else
+else //If the other statements are false
 {
  console.log("The ticket price is " + movie[0] + "!"); //Prints the statement
 }

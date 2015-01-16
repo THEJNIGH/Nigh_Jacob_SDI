@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7109bf6e-3961-45e9-a1ba-96c01315228d" name="Default" comment="" />
+    <list default="true" id="7109bf6e-3961-45e9-a1ba-96c01315228d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nigh_Jacob_Conditionals_Worksheet/js/script.js" afterPath="$PROJECT_DIR$/Nigh_Jacob_Conditionals_Worksheet/js/script.js" />
+    </list>
     <ignored path="Nigh_Jacob_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nigh_Jacob_Conditionals_Worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3560831" vertical-offset="885" max-vertical-offset="1605">
-              <caret line="75" column="70" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.59940654" vertical-offset="931" max-vertical-offset="1605">
+              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -504,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nigh_Jacob_Conditionals_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3560831" vertical-offset="885" max-vertical-offset="1605">
-          <caret line="75" column="70" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.59940654" vertical-offset="931" max-vertical-offset="1605">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
