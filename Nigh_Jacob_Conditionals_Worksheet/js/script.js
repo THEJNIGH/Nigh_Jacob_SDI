@@ -81,15 +81,15 @@ var movie = ["$12.00", "$7.00"]; //The array to hold the string amounts
 
 if(age <= 10 || age >=55) //If statement to check and see if the age is below 10 and above 55 to get the discount
 {
- console.log("The ticket price is " + movie[1] + "!"); //Prints the statement
+ console.log("The ticket price is " + movie[0] + "!"); //Prints the statement
 }
 else if(tod >=3 || tod <=5) //If statement to check and see if the movie is in the time slot of 3 and 5 pm
 {
- console.log("The ticket price is " + movie[1] + "!"); //Prints the statement
+ console.log("The ticket price is " + movie[0] + "!"); //Prints the statement
 }
 else //If the other statements are false
 {
- console.log("The ticket price is " + movie[0] + "!"); //Prints the statement
+ console.log("The ticket price is " + movie[1] + "!"); //Prints the statement
 }
 
 
