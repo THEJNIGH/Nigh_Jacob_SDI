@@ -11,7 +11,7 @@
 var radii = prompt("What is the radius of your circle?")
 while(isNaN(radii) || radii === "")
 {
-    radii = prompt("Please enter an amount. What is the radius of your cricle?")
+    radii = prompt("Please enter an amount. \n What is the radius of your cricle?");
 }
 function circleC(r)
 {
@@ -20,4 +20,20 @@ function circleC(r)
 }
 radii = parseInt(radii);
 var totalArea = circleC(radii);
-console.log(totalArea);
+console.log("The circumfrence of your circle is " + totalArea.toFixed(2) + ".");
+
+//Stung!!
+
+var deadly = prompt("How much does your animal weigh?")
+while(isNaN(deadly) || deadly ==="")
+{
+    deadly = prompt("Please enter a value. \n How much does your animal weigh? (in pounds)");
+}
+function stings(w)
+{
+    var death = w * 8.666666667;
+    return death;
+}
+deadly = parseInt(deadly);
+var deadlyDeath = stings(deadly);
+console.log("The amount of bee stings need to kill your animal is " + deadlyDeath.toFixed(2));
