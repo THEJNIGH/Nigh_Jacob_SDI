@@ -7,7 +7,11 @@
 //alert("Testing");
 
 // Doing how much damage is done over time on a target champion
-var character = prompt("Which character do you choose 1 or 2?")
+var character = prompt("Which character do you choose 1 or 2?");
+while(isNaN(character) || character === "")
+{
+    character = prompt("Please dont not leave blank and only use numbers \n Which character do you choose 1 or 2");
+}
 var currentDamage = prompt("What is the current damage you have right now?");
 while(isNaN(currentDamage) || currentDamage === "")
 {
@@ -31,23 +35,21 @@ function overTime(ad, cd, at)
     
 }
 
-function characterAA(one, two)
+var characterAA = function(o, t)
 {
-    var character1;
-    if (parseInt(character1) === 1)
+    if (o === 1)
     {
-        var results2 = 1.5 * total;
+        oTotal = total * 1.75;
+        return oTotal;
     }
-    else if (character2)
+    else if (t === 2)
     {
-        var results3 = 1.75 * total;
+        oTotal = total * 1.33;
+        return oTotal;
     }
-
-    return results2;
-    return results3;
     
-}
+};
 var results2 = characterAA(one, two)
 var results1 = overTime(parseInt(currentDamage), parseInt(coolDown * 100), parseInt(activiationTime * 100));
-console.log("Your current DPS is " + results1 + );
+console.log("Your current DPS is " + results1 + ". Since you chose character " + charcter + ", so now you have " + oTotal);
 
