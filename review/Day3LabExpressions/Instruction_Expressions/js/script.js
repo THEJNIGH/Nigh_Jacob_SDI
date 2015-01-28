@@ -13,7 +13,7 @@ var intTotal; //Declared variable
 intTotalSlices = intPizzas * intSlices; //TotalSlices = pizzas * slices
 intTotal = intTotalSlices / intPeople; //Total = totalslices / people.
 
-console.log("Each person ate " + intTotal + "at the pizza party!"); //Printed the line
+console.log("Each person ate " + intTotal + " at the pizza party!"); //Printed the line
 
 // Dog names Sparky
 
