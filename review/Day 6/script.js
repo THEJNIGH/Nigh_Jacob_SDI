@@ -1,87 +1,87 @@
-///*
-// *Jan 17 1015
-// *Jacob Nigh
-// *Nigh_Jacob_Math
-//*/
-//
-////alert("JavaScript works!");
-//
-////is a steak done theyw ay I like it.
-///*
-//Degrees 120 under is under cooked
-//120-124 rare
-//125-131 medium rare
-//132-139 medium
-//140-149 medium well
-//150-165 well done
-//165 burnt to a crips
-//*/
-//
-//
-//var steakTemp = 135;
-//
-//if (steakTemp < 120)
-//{
-//    console.log("Your steak is under cooked.");
-//}
-//else if (steakTemp < 124)
-//{
-//    console.log("Your steak is cooked rare.");
-//}
-//else if (steakTemp < 130)
-//{
-//    console.log("Your steak is cooked medium rare.");
-//}
-//else if (steakTemp < 140)
-//{
-//    console.log("Your steak is cooked medium.");
-//}
-//else if (steakTemp < 150)
-//{
-//    console.log("Your steak is cooked medium well.");
-//}
-//else if (steakTemp <= 164)
-//{
-//    console.log("Your steak is cooled well done.");
-//}
-//else
-//{
-//    console.log("Your steak is burnt to a crisp.");
-//};
-//
-//
-//
-//
-//var airTemp = prompt("What is the temperature outside?" , "65");
-//airTemp = parseInt(airTemp);
-//var waterTemp;
-//
-//
-////conditional to see what we are doing. 
-//
-//
-//if (airTemp >= 85)
-//{
-//    console.log("We're going to the beach!");
-//        
-//    {
-//        waterTemp = prompt("What is the temperature in the water?");
-//        waterTemp = parseInt(waterTemp);
-//        
-//        if (waterTemp >= 75)
-//        {
-//            console.log("We are also getting into the water.");
-//        }
-//        else
-//        {
-//            console.log("We are going to work on our tan today.");
-//        }
-//    }
-//}
-//else
-//{
-//    console.log("We're going to the movies.");
-//};
+/*
+ *Jan 17 1015
+ *Jacob Nigh
+ *Nigh_Jacob_Math
+*/
+
+//alert("JavaScript works!");
+
+//is a steak done theyw ay I like it.
+/*
+Degrees 120 under is under cooked
+120-124 rare
+125-131 medium rare
+132-139 medium
+140-149 medium well
+150-165 well done
+165 burnt to a crips
+*/
+
+
+var steakTemp = 135;
+
+if (steakTemp < 120)
+{
+    console.log("Your steak is under cooked.");
+}
+else if (steakTemp < 124)
+{
+    console.log("Your steak is cooked rare.");
+}
+else if (steakTemp < 130)
+{
+    console.log("Your steak is cooked medium rare.");
+}
+else if (steakTemp < 140)
+{
+    console.log("Your steak is cooked medium.");
+}
+else if (steakTemp < 150)
+{
+    console.log("Your steak is cooked medium well.");
+}
+else if (steakTemp <= 164)
+{
+    console.log("Your steak is cooled well done.");
+}
+else
+{
+    console.log("Your steak is burnt to a crisp.");
+};
+
+
+
+
+var airTemp = prompt("What is the temperature outside?" , "65");
+airTemp = parseInt(airTemp);
+var waterTemp;
+
+
+conditional to see what we are doing. 
+
+
+if (airTemp >= 85)
+{
+    console.log("We're going to the beach!");
+        
+    {
+        waterTemp = prompt("What is the temperature in the water?");
+        waterTemp = parseInt(waterTemp);
+        
+        if (waterTemp >= 75)
+        {
+            console.log("We are also getting into the water.");
+        }
+        else
+        {
+            console.log("We are going to work on our tan today.");
+        }
+    }
+}
+else
+{
+    console.log("We're going to the movies.");
+};
 
 
 //Starting with round

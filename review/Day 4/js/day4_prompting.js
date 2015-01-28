@@ -12,8 +12,8 @@
 
 //are of rectangle
 
-var length = prompt("Enter the length of your rectangle.");
-var width = prompt("Enter the width of your rectangle.");
+var length = prompt("Enter the length of your rectangle, please");
+var width = prompt("Enter the width of your rectangle, please");
 var area;
 
 area = length * width;

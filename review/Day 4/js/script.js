@@ -20,7 +20,7 @@ console.log(avengers[1]);
 
 //Switching index 2 for spider-man
 
-avengers[2] = "Spider-man";
+avengers[2] = "Spoder-man";
 
 console.log(avengers);
 
@@ -104,6 +104,6 @@ console.log(fruitBowl);
 
 //Adding more items
 
-fruitBowl.splice(1,0,"Tangerine", "Mango", "Grapes");
+fruitBowl.splice(1,0,"Orange", "Apple", "Grapes");
 console.log(fruitBowl);
 

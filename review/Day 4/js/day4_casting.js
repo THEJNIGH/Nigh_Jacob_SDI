@@ -19,9 +19,9 @@ console.log(castingResults);
 
 //String(treated as a text string)
 
-var areaCode = 407;
-var firstDig = 203;
-var secondDig = 1234;
+var areaCode = 336;
+var firstDig = 210;
+var secondDig = 7022;
 
 var phoneNumber = "(" + areaCode + ")" + "-" + firstDig + "-" + secondDig;
 console.log(String(phoneNumber)); //One of the ways to do it
@@ -52,4 +52,4 @@ var shoesBought = prompt("How many pairs of shoes did you buy?");
 //Add shoes bought with shoes had for total number of shoes.
 
 var totalShoes = parseInt(shoesHad) + parseInt(shoesBought);
-console.log(totalShoes);
+console.log("You have this " + totalShoes + " many shoes!");
