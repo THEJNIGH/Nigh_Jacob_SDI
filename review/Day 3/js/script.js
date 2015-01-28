@@ -10,7 +10,7 @@ Jacob Nigh - 1/9/15 - Day 3 Coding
 
 // Console.log - allows programmers to see information.
 
-console.log("This is the console.");
+console.log("This is the console. and it is annoying");
 
 // Declare a variable.
 // We use the keyword var.
@@ -119,7 +119,7 @@ console.log(phrase);
 
 // multi - line \n
 
-console.log(phrase + "\n You never know!")
+console.log(phrase + "\n You never know! Im a straight up G")
 
 // Boolean
 
@@ -162,7 +162,7 @@ var PIE = 3.14;
 // Round to a decimal place.
 // toFixed(#); # = how many numbers you want to go.
 
-var crazyNumbers = 2.32423598509325;
+var crazyNumbers = 2.3242359854234233653450932243256265433425;
 
 crazyNumbers = crazyNumbers.toFixed(2);
 console.log(crazyNumbers);
